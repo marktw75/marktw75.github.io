@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linux on MarkTsai</title>
+    <link>https://marktw75.github.io/tags/linux/</link>
+    <description>Recent content in linux on MarkTsai</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Wed, 01 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://marktw75.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>半澤直樹中的Linux指令</title>
+      <link>https://marktw75.github.io/posts/hanzawa_sp_linux/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://marktw75.github.io/posts/hanzawa_sp_linux/</guid>
+      <description>2020年初播出半澤直樹特別篇，半澤直樹II．Episode Zero
+這個為第二季開播暖身的特別篇講述了半澤直樹被調職到子公司東京中央證券，某技術高超的程式員高阪圭所屬的IT公司，與東京中央證券合作開發IT系統，可是在過程中，出差的半澤直樹帳號竟被駭客入侵，密碼遭到外洩，有多筆款項從半澤的帳號被匯出，導致高阪圭與另一位女主成為最大嫌疑人，兩人為了查出真相並且洗清自己的罪名，合力找出幕後黑手。
+刻板印象，厲害的工程師一定是用Mac的。
+劇中出現不少電腦畫面，其中只要是出現linux相關的指令或畫面都會令我眼睛一亮，有鑑於之前台灣某鄉土劇出現過駭客高手在windows的cmd視窗輸入指令找不到的搞笑畫面，這回再度回味特別篇時，認真的截了一些跟指令相關的畫面，大家一起來看看吧。
+不得不說，劇組還是很認真的&amp;hellip;.
+terminal的分割畫面
+熟悉的top顯示資訊
+劇中出現的一些指令，Spiral是公司名稱。
+$ pwd $ ls -al $ kbctl get pod $ cloud container clusters create spiral-web-144 $ /opt/spiral/tools/server-status $ ps -ef $ ps -ef | grep spiral $ grep ERROR /opt/spiral/log/*.log $ nslookup 192.168.30.45 $ sudo cat /var/log/secure 發現木馬程式，在測試環境中執行發現它會大量覆蓋重要程式。
+$ ps -ef | grep 4kzd root 4340 2 0 ? 00:02:34 4kzdcvac $ sudo kill -9 4340 其中有一幕是存款被木馬程式轉出去，緊急下了shutdown的指令，因為很重要，還連打了三次。
+$ sudo shutdown -h now Server cannot be shutdown.</description>
+    </item>
+    
+  </channel>
+</rss>
