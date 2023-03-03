@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+  半澤直樹中的Linux指令 · MarkTsai
+</title>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Mark Tsai">
+<meta name="description" content="2020半澤直樹特別篇中出現的linux指令">
+<meta name="keywords" content="blog,developer,personal,linux">
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="半澤直樹中的Linux指令"/>
+<meta name="twitter:description" content="2020半澤直樹特別篇中出現的linux指令"/>
+
+<meta property="og:title" content="半澤直樹中的Linux指令" />
+<meta property="og:description" content="2020半澤直樹特別篇中出現的linux指令" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://marktw75.github.io/posts/hanzawa-sp-linux/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-03-01T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-03-01T00:00:00+00:00" />
+
+
+
+
+
+
+<link rel="canonical" href="https://marktw75.github.io/posts/hanzawa-sp-linux/">
+
+
+<link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.min.01bd429dda63a16d76996eaf0b8da061429b76e714515cb1b246aac7fe7f4b2a.css" integrity="sha256-Ab1CndpjoW12mW6vC42gYUKbducUUVyxskaqx/5/Syo=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.min.593028e7f7ac55c003b79c230d1cd411bb4ca53b31556c3abb7f027170e646e9.css" integrity="sha256-WTAo5/esVcADt5wjDRzUEbtMpTsxVWw6u38CcXDmRuk=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+<meta name="generator" content="Hugo 0.110.0">
+
+
+
+
+
+  </head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      MarkTsai
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/posts/">Blog</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="https://marktw75.github.io/posts/hanzawa-sp-linux/">
+              半澤直樹中的Linux指令
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime="2023-03-01T00:00:00Z">
+                March 1, 2023
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              One-minute read
+            </span>
+          </div>
+          
+          
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/linux/">linux</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/%E5%8D%8A%E6%BE%A4%E7%9B%B4%E6%A8%B9/">半澤直樹</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/%E6%97%A5%E5%8A%87/">日劇</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        <p><img src="/images/hanzawa_sp/Screenshot_20221229-080324_1.png" alt="Spiral社長"></p>
+<p>2020年初播出半澤直樹特別篇，<a href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes">半澤直樹II．Episode Zero</a></p>
+<p>這個為第二季開播暖身的特別篇講述了半澤直樹被調職到子公司東京中央證券，某技術高超的程式員高阪圭所屬的IT公司，與東京中央證券合作開發IT系統，可是在過程中，出差的半澤直樹帳號竟被駭客入侵，密碼遭到外洩，有多筆款項從半澤的帳號被匯出，導致高阪圭與另一位女主成為最大嫌疑人，兩人為了查出真相並且洗清自己的罪名，合力找出幕後黑手。</p>
+<p><img src="/images/hanzawa_sp/Screenshot_20221229-090853.png" alt="mac">
+刻板印象，厲害的工程師一定是用Mac的。</p>
+<p>劇中出現不少電腦畫面，其中只要是出現linux相關的指令或畫面都會令我眼睛一亮，有鑑於之前台灣某鄉土劇出現過駭客高手在windows的cmd視窗輸入指令找不到的搞笑畫面，這回再度回味特別篇時，認真的截了一些跟指令相關的畫面，大家一起來看看吧。</p>
+<p>不得不說，劇組還是很認真的&hellip;.</p>
+<p><img src="/images/hanzawa_sp/Screenshot_20221229-080128_1.png" alt="terminal_split">
+terminal的分割畫面</p>
+<p><img src="/images/hanzawa_sp/Screenshot_20221229-080208_1.png" alt="top">
+熟悉的top顯示資訊</p>
+<p><img src="/images/hanzawa_sp/Screenshot_20221229-080900_1.png" alt="kbctl">
+<img src="/images/hanzawa_sp/Screenshot_20221229-081224_1.png" alt="cloud_container">
+<img src="/images/hanzawa_sp/Screenshot_20221229-084910_1.png" alt="pwd_ls">
+<img src="/images/hanzawa_sp/Screenshot_20221229-085430.png" alt="psef">
+劇中出現的一些指令，Spiral是公司名稱。</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ pwd
+</span></span><span style="display:flex;"><span>$ ls -al
+</span></span><span style="display:flex;"><span>$ kbctl get pod
+</span></span><span style="display:flex;"><span>$ cloud container clusters create spiral-web-144
+</span></span><span style="display:flex;"><span>$ /opt/spiral/tools/server-status
+</span></span><span style="display:flex;"><span>$ ps -ef
+</span></span><span style="display:flex;"><span>$ ps -ef | grep spiral
+</span></span><span style="display:flex;"><span>$ grep ERROR /opt/spiral/log/*.log
+</span></span><span style="display:flex;"><span>$ nslookup 192.168.30.45
+</span></span><span style="display:flex;"><span>$ sudo cat /var/log/secure
+</span></span></code></pre></div><p><img src="/images/hanzawa_sp/Screenshot_20221229-085529_1.png" alt="shutdown">
+發現木馬程式，在測試環境中執行發現它會大量覆蓋重要程式。</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ ps -ef | grep 4kzd
+</span></span><span style="display:flex;"><span>root 4340 2 0 ? 00:02:34 4kzdcvac
+</span></span><span style="display:flex;"><span>$ sudo kill -9 4340
+</span></span></code></pre></div><p>其中有一幕是存款被木馬程式轉出去，緊急下了shutdown的指令，因為很重要，還連打了三次。</p>
+<p><img src="/images/hanzawa_sp/Screenshot_20221229-092229_1.png" alt="shutdown"></p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ sudo shutdown -h now
+</span></span><span style="display:flex;"><span>Server cannot be shutdown...
+</span></span><span style="display:flex;"><span>$ sudo shutdown -h now
+</span></span><span style="display:flex;"><span>Server cannot be shutdown...
+</span></span><span style="display:flex;"><span>$ sudo shutdown -h now
+</span></span><span style="display:flex;"><span>Server cannot be shutdown...
+</span></span></code></pre></div>
+      </div>
+
+
+      <footer>
+        
+
+<section class="see-also">
+  
+    
+    
+    
+  
+</section>
+
+
+        
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+    2023
+     Mark Tsai 
+    ·
+    
+    Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>

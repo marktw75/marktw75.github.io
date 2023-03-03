@@ -9,10 +9,10 @@
     <lastBuildDate>Wed, 01 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://marktw75.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>半澤直樹中的Linux指令</title>
-      <link>https://marktw75.github.io/posts/hanzawa_sp_linux/</link>
+      <link>https://marktw75.github.io/posts/hanzawa-sp-linux/</link>
       <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://marktw75.github.io/posts/hanzawa_sp_linux/</guid>
+      <guid>https://marktw75.github.io/posts/hanzawa-sp-linux/</guid>
       <description>2020年初播出半澤直樹特別篇，半澤直樹II．Episode Zero
 這個為第二季開播暖身的特別篇講述了半澤直樹被調職到子公司東京中央證券，某技術高超的程式員高阪圭所屬的IT公司，與東京中央證券合作開發IT系統，可是在過程中，出差的半澤直樹帳號竟被駭客入侵，密碼遭到外洩，有多筆款項從半澤的帳號被匯出，導致高阪圭與另一位女主成為最大嫌疑人，兩人為了查出真相並且洗清自己的罪名，合力找出幕後黑手。
 刻板印象，厲害的工程師一定是用Mac的。
@@ -32,8 +32,7 @@ $ sudo shutdown -h now Server cannot be shutdown.</description>
       <pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>https://marktw75.github.io/about/</guid>
-      <description>&lt;p&gt;這個網站是個人經由hahow學習 用Github架站課程後，所架設的網站。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://hahow.in/courses/5de8fec16117240026540b9c/main&#34;&gt;Github 免費架站術！輕鬆打造個人品牌&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;這個網站是個人經由hahow學習 &lt;a href=&#34;https://hahow.in/courses/5de8fec16117240026540b9c/main&#34;&gt;Github 免費架站術！輕鬆打造個人品牌&lt;/a&gt; 課程後，所架設的網站。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -55,97 +54,18 @@ $ sudo shutdown -h now Server cannot be shutdown.</description>
     </item>
     
     <item>
-      <title>Mermaid JS support</title>
-      <link>https://marktw75.github.io/posts/mermaid-support/</link>
-      <pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate>
+      <title>Github架站筆記</title>
+      <link>https://marktw75.github.io/posts/github-personalsite-note/</link>
+      <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://marktw75.github.io/posts/mermaid-support/</guid>
-      <description>If you want to use Mermaid-JS on your website. Provide mermaid as Shortcode in your markdown file.
-flowchart LR A --&gt; B B --&gt; C C --&gt; D D --&gt; B sequenceDiagram participant Alice participant Bob Alice-&gt;&gt;Bob: Hi Bob Bob-&gt;&gt;Alice: Hi Alice Find more example on Mermaid-JS website.</description>
-    </item>
-    
-    <item>
-      <title>HTML and CSS only tabs</title>
-      <link>https://marktw75.github.io/posts/html-and-css-only-tabs/</link>
-      <pubDate>Sun, 15 May 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://marktw75.github.io/posts/html-and-css-only-tabs/</guid>
-      <description>Basic shortcodes Link to heading The following content:
-{{&amp;lt; tabgroup &amp;gt;}} {{&amp;lt; tab name=&amp;#34;Hello&amp;#34; &amp;gt;}} Hello World! {{&amp;lt; /tab &amp;gt;}} {{&amp;lt; tab name=&amp;#34;Goodbye&amp;#34; &amp;gt;}} Goodbye Everybody! {{&amp;lt; /tab &amp;gt;}} {{&amp;lt; /tabgroup &amp;gt;}} Will generate:
-Hello Hello World! Goodbye Goodbye Everybody! Right alighment Link to heading You can also align the tabs to the right:
-{{&amp;lt; tabgroup align=&amp;#34;right&amp;#34; &amp;gt;}} {{&amp;lt; tab name=&amp;#34;Hello&amp;#34; &amp;gt;}} Hello World! {{&amp;lt; /tab &amp;gt;}} {{&amp;lt; tab name=&amp;#34;Goodbye&amp;#34; &amp;gt;}} Goodbye Everybody!</description>
-    </item>
-    
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://marktw75.github.io/posts/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://marktw75.github.io/posts/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Rich Content</title>
-      <link>https://marktw75.github.io/posts/rich-content/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://marktw75.github.io/posts/rich-content/</guid>
-      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>More Rich Content</title>
-      <link>https://marktw75.github.io/posts/more-rich-content/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://marktw75.github.io/posts/more-rich-content/</guid>
-      <description>&lt;p&gt;Hugo Coder provides some Custom Shortcodes.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Placeholder Text</title>
-      <link>https://marktw75.github.io/posts/placeholder-text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://marktw75.github.io/posts/placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Math Typesetting</title>
-      <link>https://marktw75.github.io/posts/math-typesetting/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://marktw75.github.io/posts/math-typesetting/</guid>
-      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Emoji Support</title>
-      <link>https://marktw75.github.io/posts/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://marktw75.github.io/posts/emoji-support/</guid>
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>External Page: Hugo Coder Wiki</title>
-      <link>https://marktw75.github.io/posts/hugo-coder-wiki/</link>
-      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://marktw75.github.io/posts/hugo-coder-wiki/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Projects</title>
-      <link>https://marktw75.github.io/projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://marktw75.github.io/projects/</guid>
-      <description>&lt;p&gt;This page lists what I am interesting in.&lt;/p&gt;</description>
+      <guid>https://marktw75.github.io/posts/github-personalsite-note/</guid>
+      <description>大概做一下筆記
+安裝
+安裝Hugo程式，下載Coder主題。將主題解壓縮後，再使用Eclipse編輯。
+編輯的過程中，Hugo server可以即時呈現改好的內容，十分方便。
+C:\Users\markt\dev\exampleSite&amp;gt;hugo server 產生網頁
+用Hugo的功能產生網頁，再把產生在public檔案來中的檔案上傳到github上。
+C:\Users\markt\dev\exampleSite&amp;gt;hugo </description>
     </item>
     
   </channel>
