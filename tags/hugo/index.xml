@@ -19,7 +19,9 @@
 編輯的過程中，Hugo server可以即時呈現改好的內容，十分方便。
 C:\Users\markt\dev\exampleSite&amp;gt;hugo server 產生網頁
 用Hugo的功能產生網頁，再把產生在public檔案來中的檔案上傳到github上。
-C:\Users\markt\dev\exampleSite&amp;gt;hugo </description>
+C:\Users\markt\dev\exampleSite&amp;gt;hugo 設定Utterances留言系統
+打開utterances的安裝網頁，並在config.toml設定
+[params.utterances] repo = &amp;#34;marktw75/marktw75.github.io&amp;#34; # https://utteranc.es/#heading-repository issueTerm = &amp;#34;pathname&amp;#34; # https://utteranc.es/#heading-mapping label = &amp;#34;comment&amp;#34; # https://utteranc.es/#heading-issue-label theme = &amp;#34;github-light&amp;#34; # https://utteranc.es/#heading-theme </description>
     </item>
     
   </channel>
