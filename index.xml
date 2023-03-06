@@ -6,11 +6,11 @@
     <description>Recent content on MarkTsai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 01 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://marktw75.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://marktw75.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>半澤直樹中的Linux指令</title>
       <link>https://marktw75.github.io/posts/hanzawa-sp-linux/</link>
-      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>https://marktw75.github.io/posts/hanzawa-sp-linux/</guid>
       <description>2020年初播出半澤直樹特別篇，半澤直樹II．Episode Zero
@@ -27,12 +27,74 @@ $ sudo shutdown -h now Server cannot be shutdown.</description>
     </item>
     
     <item>
+      <title>Github架站筆記</title>
+      <link>https://marktw75.github.io/posts/github-personalsite-note/</link>
+      <pubDate>Sun, 05 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://marktw75.github.io/posts/github-personalsite-note/</guid>
+      <description>大概做一下筆記
+安裝
+安裝Hugo程式，下載Coder主題。將主題解壓縮後，再使用Eclipse編輯。
+編輯的過程中，Hugo server可以即時呈現改好的內容，十分方便。
+C:\Users\markt\dev\exampleSite&amp;gt;hugo server 產生網頁
+用Hugo的功能產生網頁，再把產生在public檔案來中的檔案上傳到github上。
+C:\Users\markt\dev\exampleSite&amp;gt;hugo 設定Utterances留言系統
+打開utterances的安裝網頁，並在config.toml設定
+[params.utterances] repo = &amp;#34;marktw75/marktw75.github.io&amp;#34; # https://utteranc.es/#heading-repository issueTerm = &amp;#34;pathname&amp;#34; # https://utteranc.es/#heading-mapping label = &amp;#34;comment&amp;#34; # https://utteranc.es/#heading-issue-label theme = &amp;#34;github-light&amp;#34; # https://utteranc.es/#heading-theme 設定Google Analytics
+到Google Analytics註冊登記個人網站，再把得到的ID加入設定檔中
+googleAnalytics = &amp;#39;id&amp;#39; 加入Google Search Console
+到Google Search Console設定，過了兩天，用文章標題查詢終於可以搜尋到。
+更改favicon
+上網找到線上繪圖工具畫了 favicon-16x16.png和 favicon-16x16.png，放到 static/images中，取代原先的檔案。</description>
+    </item>
+    
+    <item>
+      <title>樹莓派遊樂場</title>
+      <link>https://marktw75.github.io/posts/retropie-oldgames/</link>
+      <pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://marktw75.github.io/posts/retropie-oldgames/</guid>
+      <description>手上有兩台Raspberry Pi，分別是
+Raspberry Pi 3 B 1GB Raspberry Pi 4 B 4GB 目前都裝上了Repropie，真的有在玩的遊戲以大型電玩，紅白機和超任為主，算是彌補了小時候沒錢投幣，國三後忙升學沒好好玩的遺憾。
+細節待補。</description>
+    </item>
+    
+    <item>
+      <title>相片自動備份系統</title>
+      <link>https://marktw75.github.io/posts/photo-backup-system/</link>
+      <pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://marktw75.github.io/posts/photo-backup-system/</guid>
+      <description>Linux Server
+DropBox + Shell Scripting + Rsync + crontab
+DropBox在上傳相片和影片時，會用精確到秒的時間為檔名。如果有二台手機在同一秒同時上傳多個檔案，會用-#的方式自動命名，十分方便。缺點就是免費空間太小了，付費又有點吃不消。
+所以就是在File server上安裝Linux版本的DropBox，定期搬走影片及相片檔，充分利用免費空間。再用rsync的檔案多備份一份。
+細節待補。</description>
+    </item>
+    
+    <item>
+      <title>個人私有雲</title>
+      <link>https://marktw75.github.io/posts/private-cloud/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://marktw75.github.io/posts/private-cloud/</guid>
+      <description>Linux Mint + Samba Server + OpenVPN
+OpenVPN是用Router本身的功能。也就是連到家中的私人網路後，再透過Samba讀取檔案。
+缺點就是電費穩定成長有時挺嚇人的。夏日電費我收過九千多。不過在世界各地都能連回家捉檔案的感覺還是滿爽的。
+細節待補。</description>
+    </item>
+    
+    <item>
       <title>About</title>
       <link>https://marktw75.github.io/about/</link>
       <pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>https://marktw75.github.io/about/</guid>
-      <description>&lt;p&gt;這個網站是個人經由hahow學習 &lt;a href=&#34;https://hahow.in/courses/5de8fec16117240026540b9c/main&#34;&gt;Github 免費架站術！輕鬆打造個人品牌&lt;/a&gt; 課程後，所架設的網站。&lt;/p&gt;</description>
+      <description>&lt;p&gt;這個網站是個人經由hahow學習 &lt;a href=&#34;https://hahow.in/courses/5de8fec16117240026540b9c/main&#34;&gt;Github 免費架站術！輕鬆打造個人品牌&lt;/a&gt; 課程後，所架設的網站。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;給我一台電腦或筆電，&lt;br&gt;
+腦中浮現的第一個念頭就是，&lt;br&gt;
+可以灌Linux OS嗎？&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;</description>
     </item>
     
     <item>
@@ -51,23 +113,6 @@ $ sudo shutdown -h now Server cannot be shutdown.</description>
       
       <guid>https://marktw75.github.io/posts/snes-games/</guid>
       <description>Please refer to all SNES games in wikipedia.</description>
-    </item>
-    
-    <item>
-      <title>Github架站筆記</title>
-      <link>https://marktw75.github.io/posts/github-personalsite-note/</link>
-      <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://marktw75.github.io/posts/github-personalsite-note/</guid>
-      <description>大概做一下筆記
-安裝
-安裝Hugo程式，下載Coder主題。將主題解壓縮後，再使用Eclipse編輯。
-編輯的過程中，Hugo server可以即時呈現改好的內容，十分方便。
-C:\Users\markt\dev\exampleSite&amp;gt;hugo server 產生網頁
-用Hugo的功能產生網頁，再把產生在public檔案來中的檔案上傳到github上。
-C:\Users\markt\dev\exampleSite&amp;gt;hugo 設定Utterances留言系統
-打開utterances的安裝網頁，並在config.toml設定
-[params.utterances] repo = &amp;#34;marktw75/marktw75.github.io&amp;#34; # https://utteranc.es/#heading-repository issueTerm = &amp;#34;pathname&amp;#34; # https://utteranc.es/#heading-mapping label = &amp;#34;comment&amp;#34; # https://utteranc.es/#heading-issue-label theme = &amp;#34;github-light&amp;#34; # https://utteranc.es/#heading-theme </description>
     </item>
     
   </channel>

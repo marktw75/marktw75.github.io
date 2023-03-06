@@ -6,11 +6,11 @@
     <description>Recent content in linux on MarkTsai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 01 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://marktw75.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://marktw75.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>半澤直樹中的Linux指令</title>
       <link>https://marktw75.github.io/posts/hanzawa-sp-linux/</link>
-      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>https://marktw75.github.io/posts/hanzawa-sp-linux/</guid>
       <description>2020年初播出半澤直樹特別篇，半澤直樹II．Episode Zero
@@ -24,6 +24,31 @@ terminal的分割畫面
 $ pwd $ ls -al $ kbctl get pod $ cloud container clusters create spiral-web-144 $ /opt/spiral/tools/server-status $ ps -ef $ ps -ef | grep spiral $ grep ERROR /opt/spiral/log/*.log $ nslookup 192.168.30.45 $ sudo cat /var/log/secure 發現木馬程式，在測試環境中執行發現它會大量覆蓋重要程式。
 $ ps -ef | grep 4kzd root 4340 2 0 ? 00:02:34 4kzdcvac $ sudo kill -9 4340 其中有一幕是存款被木馬程式轉出去，緊急下了shutdown的指令，因為很重要，還連打了三次。
 $ sudo shutdown -h now Server cannot be shutdown.</description>
+    </item>
+    
+    <item>
+      <title>相片自動備份系統</title>
+      <link>https://marktw75.github.io/posts/photo-backup-system/</link>
+      <pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://marktw75.github.io/posts/photo-backup-system/</guid>
+      <description>Linux Server
+DropBox + Shell Scripting + Rsync + crontab
+DropBox在上傳相片和影片時，會用精確到秒的時間為檔名。如果有二台手機在同一秒同時上傳多個檔案，會用-#的方式自動命名，十分方便。缺點就是免費空間太小了，付費又有點吃不消。
+所以就是在File server上安裝Linux版本的DropBox，定期搬走影片及相片檔，充分利用免費空間。再用rsync的檔案多備份一份。
+細節待補。</description>
+    </item>
+    
+    <item>
+      <title>個人私有雲</title>
+      <link>https://marktw75.github.io/posts/private-cloud/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://marktw75.github.io/posts/private-cloud/</guid>
+      <description>Linux Mint + Samba Server + OpenVPN
+OpenVPN是用Router本身的功能。也就是連到家中的私人網路後，再透過Samba讀取檔案。
+缺點就是電費穩定成長有時挺嚇人的。夏日電費我收過九千多。不過在世界各地都能連回家捉檔案的感覺還是滿爽的。
+細節待補。</description>
     </item>
     
   </channel>

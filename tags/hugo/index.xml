@@ -6,11 +6,11 @@
     <description>Recent content in hugo on MarkTsai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 25 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://marktw75.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://marktw75.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Github架站筆記</title>
       <link>https://marktw75.github.io/posts/github-personalsite-note/</link>
-      <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 05 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>https://marktw75.github.io/posts/github-personalsite-note/</guid>
       <description>大概做一下筆記
@@ -21,7 +21,12 @@ C:\Users\markt\dev\exampleSite&amp;gt;hugo server 產生網頁
 用Hugo的功能產生網頁，再把產生在public檔案來中的檔案上傳到github上。
 C:\Users\markt\dev\exampleSite&amp;gt;hugo 設定Utterances留言系統
 打開utterances的安裝網頁，並在config.toml設定
-[params.utterances] repo = &amp;#34;marktw75/marktw75.github.io&amp;#34; # https://utteranc.es/#heading-repository issueTerm = &amp;#34;pathname&amp;#34; # https://utteranc.es/#heading-mapping label = &amp;#34;comment&amp;#34; # https://utteranc.es/#heading-issue-label theme = &amp;#34;github-light&amp;#34; # https://utteranc.es/#heading-theme </description>
+[params.utterances] repo = &amp;#34;marktw75/marktw75.github.io&amp;#34; # https://utteranc.es/#heading-repository issueTerm = &amp;#34;pathname&amp;#34; # https://utteranc.es/#heading-mapping label = &amp;#34;comment&amp;#34; # https://utteranc.es/#heading-issue-label theme = &amp;#34;github-light&amp;#34; # https://utteranc.es/#heading-theme 設定Google Analytics
+到Google Analytics註冊登記個人網站，再把得到的ID加入設定檔中
+googleAnalytics = &amp;#39;id&amp;#39; 加入Google Search Console
+到Google Search Console設定，過了兩天，用文章標題查詢終於可以搜尋到。
+更改favicon
+上網找到線上繪圖工具畫了 favicon-16x16.png和 favicon-16x16.png，放到 static/images中，取代原先的檔案。</description>
     </item>
     
   </channel>
