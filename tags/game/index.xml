@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>game on MarkTsai</title>
+    <link>https://marktw75.github.io/tags/game/</link>
+    <description>Recent content in game on MarkTsai</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Thu, 02 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://marktw75.github.io/tags/game/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>樹莓派遊樂場</title>
+      <link>https://marktw75.github.io/posts/retropie-oldgames/</link>
+      <pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://marktw75.github.io/posts/retropie-oldgames/</guid>
+      <description>手上有兩台Raspberry Pi，分別是
+Raspberry Pi 3 B 1GB Raspberry Pi 4 B 4GB 目前都裝上了Repropie，真的有在玩的遊戲以大型電玩，紅白機和超任為主，算是彌補了小時候沒錢投幣，國三後忙升學沒好好玩的遺憾。
+細節待補。</description>
+    </item>
+    
+    <item>
+      <title>NES/Famicom</title>
+      <link>https://marktw75.github.io/posts/nes-games/</link>
+      <pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://marktw75.github.io/posts/nes-games/</guid>
+      <description>Please refer to all NES games in wikipedia.</description>
+    </item>
+    
+    <item>
+      <title>SNES/SFC</title>
+      <link>https://marktw75.github.io/posts/snes-games/</link>
+      <pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://marktw75.github.io/posts/snes-games/</guid>
+      <description>Please refer to all SNES games in wikipedia.</description>
+    </item>
+    
+  </channel>
+</rss>
