@@ -6,7 +6,39 @@
     <description>Recent content in Posts on MarkTsai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 06 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://marktw75.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://marktw75.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>相片自動備份系統</title>
+      <link>https://marktw75.github.io/posts/photo-backup-system/</link>
+      <pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://marktw75.github.io/posts/photo-backup-system/</guid>
+      <description>這個系統是安裝在Linux Server上，透過
+DropBox + Shell Scripting + Rsync + crontab
+定期搬移備份檔案。
+DropBox在上傳相片和影片時，會用精確到秒的時間為檔名。如果有二台手機在同一秒同時上傳多個檔案，會用-#的方式自動命名，十分方便。缺點就是免費空間太小了，付費又有點吃不消。
+所以就是在File server上安裝Linux版本的DropBox，定期搬走影片及相片檔，充分利用免費空間。再用rsync的檔案多備份一份。
+========
+在使用DropBox管理相片之前，個人會定期把相機跟手機上的相片備份到電腦中，再用相片管理程式，像是XnView，對照片做批次改檔名。檔名就會變成下列的樣子：
+2015_0320_mark-001.jpg
+2015_0320_mark-002.jpg
+2015_0320_mark-###.jpg
+其中###是相片管理程式改名時的語法，會根據幾個#把檔案加上數字，不足位數的就補零。
+這個方法有個很大的問題就是，不同設備的相片檔命名格式不同。那時我有一台相機，二台手機，保姆有時會分享相片，幼稚園也會定期分享小孩相片，所有相片收集到的時間不同， 全部塞入同一個資料夾時，也只能用相片拍攝的時間來排序再改名，有時遇到相機時間設定有誤，或分享的相片時間被改過，就會造成一些混亂。
+而且所謂的定期是不固定的，收集整理的步驟有點繁複，有時人一懶就卡一堆相片在某個檔案夾中。時間一久，有時不小心備份個兩份，或不小心又拷貝到已經批次改名過的相片，也會搞得亂七八糟。
+這個情況到了2015年的12月就有所改變了。那時DropBox正在推行中，它提供了2G的空間給免費帳戶，勤快點完成一些任務就可以把個人空間提高到6G以上。最方便的是安裝在手機上，可以自動偵測 新增的相片檔及影片檔，然後上傳到雲端。電腦上也可以安裝，初期是完全不限制同一個帳號可以安裝的設備數量。
+所以我就在所有可以控制的手機及電腦上安裝了DropBox。相片檔及影片檔會依時間重新命名並被存放在Camera Upload的檔案夾中。檔名如下：
+2015-12-18 10.25.43.jpg
+2015-12-18 19.16.52-1.jpg
+2015-12-18 19.16.52-2.jpg
+可以看到檔名精確到秒，同一秒快怕的相片也會依順序加上-#的後綴。
+所以從2016起，整理照片的工作就簡化了收集和整理的步驟。那時是在桌機上安裝DropBox，相機的相片使用有wifi功能的記憶片傳送到手機中，手機的相片則是傳到雲端，再回到桌機上確認。DropBox免費空間用完後， 相片跟影片就無法上傳，所以得定時把檔案從Camera Upload的檔案夾中搬走。我是先把檔案搬到一塊500G的外接硬碟中，然後再買了一塊750G的外接硬碟用來備份相片及影像檔。
+但這個定期搬檔案及備份檔案的步驟還是有時會因為設備上傳時間的誤差，加上人為操作失誤，造成不同相片，先進雲端但被搬走，而被後來進雲端的相片蓋掉的悲劇發生
+======
+所以我想把搬相片跟備份的工作自動化。。
+細節未完待補。</description>
+    </item>
+    
     <item>
       <title>半澤直樹中的Linux指令</title>
       <link>https://marktw75.github.io/posts/hanzawa-sp-linux/</link>
@@ -56,19 +88,6 @@ googleAnalytics = &amp;#39;id&amp;#39; 加入Google Search Console
       <guid>https://marktw75.github.io/posts/retropie-oldgames/</guid>
       <description>手上有兩台Raspberry Pi，分別是
 Raspberry Pi 3 B 1GB Raspberry Pi 4 B 4GB 目前都裝上了Repropie，真的有在玩的遊戲以大型電玩，紅白機和超任為主，算是彌補了小時候沒錢投幣，國三後忙升學沒好好玩的遺憾。
-細節待補。</description>
-    </item>
-    
-    <item>
-      <title>相片自動備份系統</title>
-      <link>https://marktw75.github.io/posts/photo-backup-system/</link>
-      <pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://marktw75.github.io/posts/photo-backup-system/</guid>
-      <description>Linux Server
-DropBox + Shell Scripting + Rsync + crontab
-DropBox在上傳相片和影片時，會用精確到秒的時間為檔名。如果有二台手機在同一秒同時上傳多個檔案，會用-#的方式自動命名，十分方便。缺點就是免費空間太小了，付費又有點吃不消。
-所以就是在File server上安裝Linux版本的DropBox，定期搬走影片及相片檔，充分利用免費空間。再用rsync的檔案多備份一份。
 細節待補。</description>
     </item>
     
